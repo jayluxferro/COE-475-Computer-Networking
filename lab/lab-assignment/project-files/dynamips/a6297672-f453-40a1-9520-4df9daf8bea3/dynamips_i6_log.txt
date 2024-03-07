@@ -1,0 +1,15 @@
+Mar 07 19:23:02.944 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Mar 07 19:23:02.945 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62661.
+Mar 07 19:23:02.952 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 07 19:23:02.952 HYPERVISOR: exec_cmd: hypervisor working_dir /Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips 
+Mar 07 19:23:02.952 GENERAL: working_dir=/Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips
+Mar 07 19:23:02.952 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 07 19:23:05.007 HYPERVISOR: exec_cmd: nio create_udp udp-de1a4aaa-f258-414c-be20-d0a83cd377c2 10031 127.0.0.1 10030 
+Mar 07 19:23:05.007 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-de1a4aaa-f258-414c-be20-d0a83cd377c2 
+Mar 07 19:23:05.009 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-de1a4aaa-f258-414c-be20-d0a83cd377c2 1 
+Mar 07 19:23:05.060 HYPERVISOR: exec_cmd: nio create_udp udp-bd7355e5-a560-4ce4-85c6-e41e2af4a690 10034 127.0.0.1 10035 
+Mar 07 19:23:05.061 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-bd7355e5-a560-4ce4-85c6-e41e2af4a690 
+Mar 07 19:23:05.082 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-bd7355e5-a560-4ce4-85c6-e41e2af4a690 1 
+Mar 07 19:23:05.136 HYPERVISOR: exec_cmd: nio create_udp udp-5d32a26f-5f26-401f-8eca-58ee2fb1e111 10036 127.0.0.1 10037 
+Mar 07 19:23:05.136 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-5d32a26f-5f26-401f-8eca-58ee2fb1e111 
+Mar 07 19:23:05.156 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-5d32a26f-5f26-401f-8eca-58ee2fb1e111 1 

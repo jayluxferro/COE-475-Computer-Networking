@@ -1,0 +1,38 @@
+Mar 07 19:23:03.021 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Mar 07 19:23:03.023 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62669.
+Mar 07 19:23:03.029 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: hypervisor working_dir /Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips 
+Mar 07 19:23:03.030 GENERAL: working_dir=/Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: hypervisor working_dir /Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips/a6297672-f453-40a1-9520-4df9daf8bea3 
+Mar 07 19:23:03.030 GENERAL: working_dir=/Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips/a6297672-f453-40a1-9520-4df9daf8bea3
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: vm create LEVEL-3 6 c7200 
+Mar 07 19:23:03.030 VM: VM LEVEL-3 created.
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: vm set_con_tcp_port LEVEL-3 5034 
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: c7200 get_mac_addr LEVEL-3 
+Mar 07 19:23:03.030 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.031 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 0 0 C7200-IO-FE 
+Mar 07 19:23:03.031 HYPERVISOR: exec_cmd: vm set_disk0 LEVEL-3 0 
+Mar 07 19:23:03.031 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.031 HYPERVISOR: exec_cmd: vm set_idle_pc LEVEL-3 0x606df838 
+Mar 07 19:23:03.031 HYPERVISOR: exec_cmd: vm set_ios LEVEL-3 /Users/jay/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 07 19:23:03.032 HYPERVISOR: exec_cmd: c7200 set_mac_addr LEVEL-3 ca06.802b.0000 
+Mar 07 19:23:03.032 HYPERVISOR: exec_cmd: vm set_nvram LEVEL-3 512 
+Mar 07 19:23:03.032 HYPERVISOR: exec_cmd: vm set_ram LEVEL-3 512 
+Mar 07 19:23:03.032 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.032 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 1 0 PA-GE 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 2 0 PA-GE 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 3 0 PA-GE 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 4 0 PA-FE-TX 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.033 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 5 0 PA-FE-TX 
+Mar 07 19:23:03.034 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:03.034 HYPERVISOR: exec_cmd: vm slot_add_binding LEVEL-3 6 0 PA-FE-TX 
+Mar 07 19:23:06.732 HYPERVISOR: exec_cmd: nio create_udp udp-a45525c6-18ea-4f95-b30f-576b7defb702 10086 127.0.0.1 10087 
+Mar 07 19:23:06.955 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LEVEL-3 1 0 udp-a45525c6-18ea-4f95-b30f-576b7defb702 
+Mar 07 19:23:06.956 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:23:07.012 HYPERVISOR: exec_cmd: nio create_udp udp-a3328d30-7332-40fb-9fbe-083afbe218a7 10090 127.0.0.1 10091 
+Mar 07 19:23:07.013 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LEVEL-3 2 0 udp-a3328d30-7332-40fb-9fbe-083afbe218a7 
+Mar 07 19:23:07.013 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
