@@ -36,3 +36,24 @@ Mar 07 19:23:06.344 HYPERVISOR: exec_cmd: vm get_status R7
 Mar 07 19:23:06.411 HYPERVISOR: exec_cmd: nio create_udp udp-045391fe-df21-4ed2-9d56-21ba5e310566 10070 127.0.0.1 10071 
 Mar 07 19:23:06.413 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 4 0 udp-045391fe-df21-4ed2-9d56-21ba5e310566 
 Mar 07 19:23:06.413 HYPERVISOR: exec_cmd: vm get_status R7 
+Mar 07 19:43:46.118 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/jay/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 07 19:43:51.734 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/jay/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 07 19:53:16.151 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Mar 07 19:53:16.153 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Mar 07 19:53:16.154 HYPERVISOR: exec_cmd: vm get_status R7 
+Mar 07 19:53:16.165 HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+Mar 07 19:53:16.167 HYPERVISOR: exec_cmd: vm start R7 
+Mar 07 19:53:46.437 HYPERVISOR: exec_cmd: vm extract_config R7 
+Mar 08 06:36:29.812 HYPERVISOR: exec_cmd: vm get_status R7 
+Mar 08 06:36:29.826 HYPERVISOR: exec_cmd: vm stop R7 
+Mar 08 06:36:29.912 VM: VM R7 shutdown.
+Mar 08 06:36:29.913 HYPERVISOR: exec_cmd: vm extract_config R7 
+Mar 08 06:36:50.752 HYPERVISOR: exec_cmd: vm get_status R7 
+Mar 08 06:36:50.754 HYPERVISOR: exec_cmd: vm extract_config R7 
+Mar 08 06:36:51.246 HYPERVISOR: exec_cmd: vm get_status R7 
+Mar 08 06:36:51.246 HYPERVISOR: exec_cmd: vm extract_config R7 
+Mar 08 06:36:51.246 HYPERVISOR: exec_cmd: vm delete R7 
+Mar 08 06:36:51.249 VM: VM R7 destroyed.
+Mar 08 06:36:51.252 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 08 06:36:51.590 HYPERVISOR: Stopped.
+Mar 08 06:36:51.591 GENERAL: reset done.

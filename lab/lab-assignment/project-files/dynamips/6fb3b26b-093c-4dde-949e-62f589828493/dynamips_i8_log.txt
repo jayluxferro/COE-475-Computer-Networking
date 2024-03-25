@@ -36,3 +36,28 @@ Mar 07 19:23:06.956 HYPERVISOR: exec_cmd: vm get_status LEVEL-3
 Mar 07 19:23:07.012 HYPERVISOR: exec_cmd: nio create_udp udp-a3328d30-7332-40fb-9fbe-083afbe218a7 10090 127.0.0.1 10091 
 Mar 07 19:23:07.013 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LEVEL-3 2 0 udp-a3328d30-7332-40fb-9fbe-083afbe218a7 
 Mar 07 19:23:07.013 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:43:46.117 HYPERVISOR: exec_cmd: vm set_ios LEVEL-3 /Users/jay/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 07 19:43:51.733 HYPERVISOR: exec_cmd: vm set_ios LEVEL-3 /Users/jay/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 07 19:53:15.408 HYPERVISOR: exec_cmd: vm set_ghost_status LEVEL-3 2 
+Mar 07 19:53:15.410 HYPERVISOR: exec_cmd: vm set_ghost_file LEVEL-3 /Volumes/Lux/Documents/School/Lectures/COE 475 - IDL/github/lab/lab-assignment/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Mar 07 19:53:15.410 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:53:15.411 HYPERVISOR: exec_cmd: vm set_config LEVEL-3 configs/i6_startup-config.cfg 
+Mar 07 19:53:15.411 HYPERVISOR: exec_cmd: vm start LEVEL-3 
+Mar 07 19:53:45.633 HYPERVISOR: exec_cmd: vm extract_config LEVEL-3 
+Mar 07 19:53:50.947 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 07 19:53:50.948 HYPERVISOR: exec_cmd: vm slot_disable_nio LEVEL-3 2 0 
+Mar 07 19:53:50.949 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding LEVEL-3 2 0 
+Mar 07 19:53:50.953 HYPERVISOR: exec_cmd: nio delete udp-a3328d30-7332-40fb-9fbe-083afbe218a7 
+Mar 08 06:36:29.712 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 08 06:36:29.716 HYPERVISOR: exec_cmd: vm stop LEVEL-3 
+Mar 08 06:36:29.818 VM: VM LEVEL-3 shutdown.
+Mar 08 06:36:29.819 HYPERVISOR: exec_cmd: vm extract_config LEVEL-3 
+Mar 08 06:36:50.748 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 08 06:36:50.750 HYPERVISOR: exec_cmd: vm extract_config LEVEL-3 
+Mar 08 06:36:51.266 HYPERVISOR: exec_cmd: vm get_status LEVEL-3 
+Mar 08 06:36:51.266 HYPERVISOR: exec_cmd: vm extract_config LEVEL-3 
+Mar 08 06:36:51.267 HYPERVISOR: exec_cmd: vm delete LEVEL-3 
+Mar 08 06:36:51.268 VM: VM LEVEL-3 destroyed.
+Mar 08 06:36:51.270 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 08 06:36:51.709 HYPERVISOR: Stopped.
+Mar 08 06:36:51.709 GENERAL: reset done.
